@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="header">
+        <!-- logo, barre de recherche, bouton login ===> popup formulaire login
+        form login contien: id, password, bouton OK, bouton "créer compte", checkbox "rester connecté", oublié mot de passe?, cancel -->
+    </div>
+
+
+    <div class="navbar">
+        <!-- Deux menus dropdown qui menent vers selections films -->
+    </div>
+
+    <div class="banner">
+        <!-- Caroussel photos: photo ==> 75% largeur, selection + description ===> 25% largeur -->
+    </div>
+
+    <div class="social">
+        <!-- menu pour réseaux sociaux. Position fixe a gauch; on click ==> long + animation
+                                                          click autre ==> court + animation -->
+
+    </div>
+
+    <div class="sectionFilms">
+
+    <div class="new"></div>
+
+    <div class="featured"></div>
+
+    <div class="series"></div>
+
+    </div>
+        <!-- shop -->
+    <div class="shop">
+        <!-- caroussel 7 films avec trailers (resume, date, genre, prix) -->
+        <h2 class="titreBefore2">SHOP MOVIES</h2>
+        <div class="bgv">
+
+            <div id="blockPN">
+              <p id="prev"><</p>
+              <p id="nt">></p>
+            </div>
+            <div class="flex-container">
+                    <!-- video -->
+
+                  <div style="flex-grow: 6">
+                         <iframe width="660px" height="300px" src="https://www.youtube.com/embed/PHLN6rhLqRc" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <div style="flex-grow: 6">
+
+                      <div id="captain">
+                          <h4>CAPTAIN AMERICA CIVIL WAR</h4>
+                      </div>
+                            <!-- blocDescrip -->
+                        <div id="blocDescrip">
+                        <div id="colonne1">Résumé</div>
+                        <div id="colonne2"><span>: </span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur</div>
+                        </div>
+
+                        <!-- blocDescrip2 -->
+                    <div id="blocDescrip2">
+                    <div id="colonne1">désumé</div>
+                    <div id="colonne2"><span>: </span>Lorem ipsum</div>
+                    </div>
+
+                    <!-- blocDescrip3 -->
+                <div id="blocDescrip3">
+                <div id="colonne1">mohsdé</div>
+                <div id="colonne2"><span>: </span>Lorem ipsum</div>
+                </div>
+
+                <!-- blocDescrip4 -->
+            <div id="blocDescrip4">
+            <div id="colonne1">Prix</div>
+            <div id="colonne2"><span>: </span>35 €</div>
+            </div>
+
+
+
+
+                  </div>
+                  <!-- galerie -->
+                  <main class="gallery">
+                      <img  src="assets/images/batmanmovie-2017-comedie.jpg">
+                      <img  src="assets/images/batmanmovie-2017-comedie.jpg">
+                      <img  src="assets/images/batmanmovie-2017-comedie.jpg">
+                      <img  src="assets/images/batmanmovie-2017-comedie.jpg">
+                      <img  src="assets/images/batmanmovie-2017-comedie.jpg">
+                      <img  src="assets/images/batmanmovie-2017-comedie.jpg">
+
+                 </main>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="contact">
+        <!-- on clock ==> afficher info
+        !!! BONUS ==> inclure carte style google maps -->
+        <h2 class="titreBefore">CONTACT US</h2>
+            <!-- bloc -->
+            <div class="toutbloc">
+                  <div class="bloc">
+                      <h3>Address</h3>
+                      <div class="pla">
+                          <img src="assets/images/006-placeholder.png" alt="icones">
+                      </div>
+                  </div>
+                  <div class="bloc2">
+                      <h3>Call</h3>
+                      <div class="pla2">
+                          <img src="assets/images/004-circle.png" alt="icones">
+                      </div>
+                      <ul>
+                          <li>+1873682656</li>
+                          <li>+1873682656</li>
+                          <li>+1873682656</li>
+                      </ul>
+                  </div>
+                  <div class="bloc3">
+                      <h3>Email</h3>
+                      <div class="pla3">
+                          <img src="assets/images/005-envelope.png" alt="icones">
+                      </div>
+                      <ul>
+                          <li>example1@gmail.com</li>
+                          <li>example2@gmail.com</li>
+                          <li>example3@gmail.com</li>
+                      </ul>
+                  </div>
+                  <div class="bloc4">
+                      <h3>Social Media</h3>
+                      <div class="pla4">
+                          <img src="assets/images/007-user.png" alt="icones">
+                      </div>
+                      <ul>
+                          <li>
+                             <div class="rectangle">
+                                 <img src="assets/images/003-facebook.png" alt="logo">
+                                 <a href="#">Facebook</a><br>
+                             </div>
+                          </li>
+                          <li>
+                              <div class="rectangle2">
+                                  <img src="assets/images/002-twitter.png" alt="logo">
+                                  <a href="#">Twitter</a><br>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="rectangle3">
+                                  <img src="assets/images/001-google-plus.png" alt="logo">
+                                  <a href="#">Google+</a><br>
+                              </div>
+
+                          </li>
+                      </ul>
+                  </div>
+           </div>
+          <!-- formulair -->
+          <div class="formulair">
+              <form action="core/request.php" method="POST">
+                       <input class="non" type="text"  placeholder="FIRST NAME"/>
+                       <input class="prenon" type="text"  placeholder="LAST NAME"/><br/>
+                       <input class="email" type="email"  placeholder="EMAIL"/>
+                       <input class="info" type="text"  placeholder="SUBJECT"/> <br/>
+                       <textarea placeholder="YOUR MESSAGE"></textarea> <br/>
+                       <input class="submit" type="submit"  placeholder="SEND MESSAGE"/>
+                  </form>
+          </div>
+
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <h1>SUBSRIBE TO US</h1>
+        <img src="assets/images/logoMovies.png" alt="logo">
+         <div class="sub">
+                <div class="gh"><a>Your email</a></div>
+                <div class="gh2"><a>send</a></div>
+          </div>
+          <div class="separation"><p></p></div>
+          <!-- © -->
+
+          <p>© 2017 One Movies. All rights reserved | Design by < Becode ></p>
+          <!-- footer lient -->
+				<ul>
+					<li><a href="#">MOVIES</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">ACTION</a></li>
+					<li><a href="#">ADVENTURE</a></li>
+					<li><a href="#">COMEDY</a></li>
+					<li><a href="#">ICONS</a></li>
+					<li><a href="#">CONTACT US</a></li>
+				</ul>
+
+          <div class="clicretour">
+            <img src="assets/images/up-arrow.png" alt="boutonterour">
+         </div>
+    </div>
+
+</body>
+</html>
